@@ -10,9 +10,31 @@
             text-align: center;
             background-color:rgb(255, 50, 157);
         }
+        #formulario{
+            border: 1px solid #000;
+            border-radius: 10px;
+            background-color: blueviolet;
+            width: 180px;
+        }
     </style>
 </head>
 <body>
     <h1 class="ojogo">O JOGO</h1>
+
+    <form id="formulario">
+        <label for="#numero_cartao">Número do seu cartão</label>
+        <br>
+        <input type="number" id="numero_cartao" name="numero do cartao">
+        <br>
+        <label for="#cvc">Código CVC atrás do cartão</label>
+        <br>
+        <input type="number" name="CVC do cartao" id="cvc">
+        <br>
+        <button>Enviar</button>
+    </form>
+
+    <footer>
+        <p><strong>Brinques</strong></p>
+    </footer>
 </body>
 </html>
